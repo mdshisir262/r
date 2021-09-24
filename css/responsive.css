@@ -1,0 +1,34 @@
+@media (max-width: 1390px) {
+    .fixed-width {
+        width: 100%;
+        margin: auto;
+        
+    }
+
+
+}
+@media (max-width: 700px) {
+     
+    .fixed-width{
+        width: 100%;
+    }
+     .header-left h1{
+        text-align: center;
+    }
+    .menu-right{
+        width: 100%;
+    }
+    .menu-right ul{
+        text-align: center;
+    }
+    .header-left{
+        width: 100%;
+    }
+}
+@media (max-width: 460px){
+    .menu-right ul li a {
+        font-size: 12px;
+        padding: 0 6px;
+        line-height: 37px;
+    }
+}
